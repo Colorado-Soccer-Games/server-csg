@@ -1,0 +1,84 @@
+{
+  "GamesCreated": [
+    {
+      "id": 100,
+      "location": "Denver Sports Center",
+      "city": "Denver",
+      "info": "Not free to play.",
+      "day": "Tuesday",
+      "time": "Night",
+      "stats_games_completed": 140,
+      "stats_total_players": 100
+    },
+        {
+      "id": 101,
+      "location": "Cheeseman Park",
+      "city": "Capitol Hill",
+      "info": "No goals, park is uneven.",
+      "day": "Thursday",
+      "time": "Morning",
+      "stats_games_completed": 100,
+      "stats_total_players": 200
+    },
+        {
+      "id": 102,
+      "location": "Congress Park",
+      "city": "Denver",
+      "info": "No lights at park.",
+      "day": "Sunday",
+      "time": "Day",
+      "stats_games_completed": 20,
+      "stats_total_players": 50
+    },
+        {
+      "id": 103,
+      "location": "Boulder High School",
+      "city": "Boulder",
+      "info": "Parking free.",
+      "day": "Saturday",
+      "time": "Night",
+      "stats_games_completed": 24,
+      "stats_total_players": 12
+    },
+        {
+      "id": 104,
+      "location": "RiNo Soccer Complex",
+      "city": "RiNo",
+      "info": "No lights.",
+      "day": "Wednesday",
+      "time": "Day",
+      "stats_games_completed": 35,
+      "stats_total_players": 44
+    },
+        {
+      "id": 105,
+      "location": "City Park",
+      "city": "Five Points",
+      "info": "No lights at park.",
+      "day": "Monday",
+      "time": "Day",
+      "stats_games_completed": 11,
+      "stats_total_players": 14
+    },
+        {
+      "id": 106,
+      "location": "Congress Park",
+      "city": "Denver",
+      "info": "No lights at park.",
+      "day": "Tuesday",
+      "time": "Morning",
+      "stats_games_completed": 20,
+      "stats_total_players": 50
+    },
+        {
+      "id": 107,
+      "location": "Belmar Park",
+      "city": "Lakewood",
+      "info": "Free parking nearby!",
+      "day": "Friday",
+      "time": "Night",
+      "stats_games_completed": 10,
+      "stats_total_players": 30
+    }
+  ]
+}
