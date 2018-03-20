@@ -24,7 +24,7 @@ exports.up = function(knex, Promise) {
     table.integer("stats_games_completed");
     table.integer("stats_total_players");
     // twilio
-    table.number("phone_number");
+    table.bigInteger("phone_number");
 
   });
 };
