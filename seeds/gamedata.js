@@ -131,6 +131,57 @@ exports.seed = function(knex, Promise) {
           stats_total_players: 98,
           //twilio
           phone_number: 6025505103
+        },
+        {
+          id: 158,
+          location: "Cheeseman Park",
+          city: "Capitol Hill",
+          day: "Wednesday",
+          time: "Morning",
+          level: "Normal",
+          surface: "Dirt",
+          goals: "None",
+          info_parking: false,
+          info_restrooms: false,
+          info_water: true,
+          info_lights: false,
+          stats_games_completed: 21,
+          stats_total_players: 44,
+          phone_number: 6025505103
+        },
+        {
+          id: 159,
+          location: "Colfax Sports Complex",
+          city: "Denver",
+          day: "Friday",
+          time: "Morning",
+          level: "Competitive",
+          surface: "Tfrd",
+          goals: "Full",
+          info_parking: true,
+          info_restrooms: false,
+          info_water: true,
+          info_lights: true,
+          stats_games_completed: 41,
+          stats_total_players: 119,
+          phone_number: 6025505103
+        },
+                {
+          id: 160,
+          location: "Longmont Sports Park",
+          city: "Longmont",
+          day: "Thursday",
+          time: "Night",
+          level: "Open",
+          surface: "Concrete",
+          goals: "Full",
+          info_parking: true,
+          info_restrooms: true,
+          info_water: true,
+          info_lights: true,
+          stats_games_completed: 11,
+          stats_total_players: 64,
+          phone_number: 6025505103
         }
       ]);
     })
