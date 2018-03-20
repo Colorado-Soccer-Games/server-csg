@@ -23,6 +23,8 @@ exports.up = function(knex, Promise) {
     // game stats
     table.integer("stats_games_completed");
     table.integer("stats_total_players");
+    // twilio
+    table.number("phone_number");
 
   });
 };
