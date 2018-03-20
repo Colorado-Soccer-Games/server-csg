@@ -136,7 +136,7 @@ exports.seed = function(knex, Promise) {
           id: 158,
           location: "Cheeseman Park",
           city: "Capitol Hill",
-          day: "Wednesday",
+          day: "Tuesday",
           time: "Morning",
           level: "Normal",
           surface: "Dirt",
@@ -156,7 +156,7 @@ exports.seed = function(knex, Promise) {
           day: "Friday",
           time: "Morning",
           level: "Competitive",
-          surface: "Tfrd",
+          surface: "Turf",
           goals: "Full",
           info_parking: true,
           info_restrooms: false,
@@ -166,11 +166,11 @@ exports.seed = function(knex, Promise) {
           stats_total_players: 119,
           phone_number: 6025505103
         },
-                {
+          {
           id: 160,
           location: "Longmont Sports Park",
           city: "Longmont",
-          day: "Thursday",
+          day: "Sunday",
           time: "Night",
           level: "Open",
           surface: "Concrete",
