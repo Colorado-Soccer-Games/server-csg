@@ -27,7 +27,7 @@ exports.seed = function(knex, Promise) {
           // stats
           stats_games_completed: 45,
           stats_total_players: 119,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 152,
@@ -44,7 +44,7 @@ exports.seed = function(knex, Promise) {
           info_lights: false,
           stats_games_completed: 13,
           stats_total_players: 88,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 153,
@@ -61,7 +61,7 @@ exports.seed = function(knex, Promise) {
           info_lights: true,
           stats_games_completed: 22,
           stats_total_players: 45,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 154,
@@ -78,7 +78,7 @@ exports.seed = function(knex, Promise) {
           info_lights: false,
           stats_games_completed: 9,
           stats_total_players: 29,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 155,
@@ -95,7 +95,7 @@ exports.seed = function(knex, Promise) {
           info_lights: false,
           stats_games_completed: 29,
           stats_total_players: 119,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 156,
@@ -112,7 +112,7 @@ exports.seed = function(knex, Promise) {
           info_lights: true,
           stats_games_completed: 3,
           stats_total_players: 33,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 157,
@@ -130,7 +130,7 @@ exports.seed = function(knex, Promise) {
           stats_games_completed: 11,
           stats_total_players: 98,
           //twilio
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 158,
@@ -147,7 +147,7 @@ exports.seed = function(knex, Promise) {
           info_lights: false,
           stats_games_completed: 21,
           stats_total_players: 44,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
         {
           id: 159,
@@ -164,9 +164,9 @@ exports.seed = function(knex, Promise) {
           info_lights: true,
           stats_games_completed: 41,
           stats_total_players: 119,
-          phone_number: 6025505103
+          phone_number: 5033136362
         },
-          {
+        {
           id: 160,
           location: "Longmont Sports Park",
           city: "Longmont",
@@ -181,7 +181,7 @@ exports.seed = function(knex, Promise) {
           info_lights: true,
           stats_games_completed: 11,
           stats_total_players: 64,
-          phone_number: 6025505103
+          phone_number: 5033136362
         }
       ]);
     })
