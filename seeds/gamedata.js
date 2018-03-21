@@ -182,6 +182,57 @@ exports.seed = function(knex, Promise) {
           stats_games_completed: 11,
           stats_total_players: 64,
           phone_number: 5033136362
+        },
+        {
+          id: 161,
+          location: "East High School",
+          city: "City Park",
+          day: "Thursday",
+          time: "Day",
+          level: "Normal",
+          surface: "Dirt",
+          goals: "None",
+          info_parking: true,
+          info_restrooms: false,
+          info_water: true,
+          info_lights: false,
+          stats_games_completed: 3,
+          stats_total_players: 30,
+          phone_number: 5033136362
+        },
+        {
+          id: 162,
+          location: "Aroura Sports Park",
+          city: "Aroura",
+          day: "Saturday",
+          time: "Day",
+          level: "Open",
+          surface: "Grass",
+          goals: "Full",
+          info_parking: true,
+          info_restrooms: false,
+          info_water: false,
+          info_lights: false,
+          stats_games_completed: 20,
+          stats_total_players: 99,
+          phone_number: 5033136362
+        },
+        {
+          id: 163,
+          location: "Sloan's Lake",
+          city: "Lakewood",
+          day: "Saturday",
+          time: "Morning",
+          level: "Competitive",
+          surface: "Grass",
+          goals: "Netless",
+          info_parking: true,
+          info_restrooms: false,
+          info_water: false,
+          info_lights: true,
+          stats_games_completed: 66,
+          stats_total_players:209,
+          phone_number: 5033136362
         }
       ]);
     })
