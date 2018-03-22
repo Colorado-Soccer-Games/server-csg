@@ -13,13 +13,13 @@ exports.up = function(knex, Promise) {
     // 3 // open, normal, competitive
     table.text("surface");
     // 3 // goals, netless, none
-    table.string("goals");
+    table.text("goals");
     // 4 // grass, turf, dirt, hard-court
     // field info checkboxes
-    table.boolean("info_parking");
-    table.boolean("info_lights");
-    table.boolean("info_water");
-    table.boolean("info_restrooms");
+    table.text("info_parking");
+    table.text("info_lights");
+    table.text("info_water");
+    table.text("info_restrooms");
     // game stats
     table.integer("stats_games_completed");
     table.integer("stats_total_players");
