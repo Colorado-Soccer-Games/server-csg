@@ -26,7 +26,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           // stats
           stats_games_completed: 45,
-          stats_total_players: 119,
+          stats_total_players: 118,
           phone_number: 5033136362
         },
         {
@@ -43,7 +43,7 @@ exports.seed = function(knex, Promise) {
           info_water: "Yes",
           info_lights: "None",
           stats_games_completed: 13,
-          stats_total_players: 33,
+          stats_total_players: 45,
           phone_number: 5033136362
         },
         {
@@ -111,7 +111,7 @@ exports.seed = function(knex, Promise) {
           info_water: "Yes",
           info_lights: "None",
           stats_games_completed: 3,
-          stats_total_players: 33,
+          stats_total_players: 83,
           phone_number: 5033136362
         },
         {
@@ -214,7 +214,7 @@ exports.seed = function(knex, Promise) {
           info_water: "None",
           info_lights: "None",
           stats_games_completed: 20,
-          stats_total_players: 99,
+          stats_total_players: 97,
           phone_number: 5033136362
         },
         {
@@ -231,7 +231,7 @@ exports.seed = function(knex, Promise) {
           info_water: "None",
           info_lights: "Yes",
           stats_games_completed: 64,
-          stats_total_players: 209,
+          stats_total_players: 211,
           phone_number: 5033136362
         },
         {
@@ -265,7 +265,7 @@ exports.seed = function(knex, Promise) {
           info_water: "None",
           info_lights: "Yes",
           stats_games_completed: 72,
-          stats_total_players: 211,
+          stats_total_players: 252,
           phone_number: 5033136362
         },
         {
@@ -316,7 +316,7 @@ exports.seed = function(knex, Promise) {
           info_water: "None",
           info_lights: "Yes",
           stats_games_completed: 52,
-          stats_total_players: 241,
+          stats_total_players: 221,
           phone_number: 5033136362
         },
         {
@@ -350,7 +350,7 @@ exports.seed = function(knex, Promise) {
           info_water: "None",
           info_lights: "Yes",
           stats_games_completed: 33,
-          stats_total_players: 53,
+          stats_total_players: 17,
           phone_number: 5033136362
         },
         {
@@ -372,7 +372,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 283,
-          location: "Broomfeild Field",
+          location: "Broomfield Field",
           city: "Denver",
           day: "Sunday",
           time: "Day",
@@ -428,7 +428,7 @@ exports.seed = function(knex, Promise) {
           day: "Sunday",
           time: "Night",
           level: "Open",
-          surface: "Dirt",
+          surface: "Grass",
           goals: "None",
           info_parking: "Yes",
           info_restrooms: "Yes",
@@ -457,29 +457,29 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 313,
-          location: "City Park",
+          location: "Pulaski Park",
           city: "Denver",
           day: "Sunday",
           time: "Day",
           level: "Open",
-          surface: "Dirt",
+          surface: "Grass",
           goals: "Full",
           info_parking: "Yes",
           info_restrooms: "Yes",
           info_water: "None",
           info_lights: "Yes",
           stats_games_completed: 67,
-          stats_total_players: 214,
+          stats_total_players: 111,
           phone_number: 5033136362
         },
         {
           id: 343,
-          location: "Five Points Park",
+          location: "Five Points Field",
           city: "River North",
           day: "Saturday",
           time: "Day",
           level: "Open",
-          surface: "Dirt",
+          surface: "Concrete",
           goals: "Full",
           info_parking: "Yes",
           info_restrooms: "Yes",
