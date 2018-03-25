@@ -185,7 +185,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 808,
-          location: "East High School",
+          location: "North High School",
           city: "City Park",
           day: "Thursday",
           time: "Day",
@@ -287,8 +287,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 883,
-          location: "Colo Sports Park",
-          city: "Denver",
+          location: "Cheeseman Park ",
+          city: "Cap Hill",
           day: "Saturday",
           time: "Day",
           level: "Open",
@@ -298,8 +298,8 @@ exports.seed = function(knex, Promise) {
           info_restrooms: "Yes",
           info_water: "None",
           info_lights: "Yes",
-          stats_games_completed: 49,
-          stats_total_players: 185,
+          stats_games_completed: 29,
+          stats_total_players: 125,
           phone_number: 5033136362
         },
         {
