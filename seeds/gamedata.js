@@ -27,6 +27,7 @@ exports.seed = function(knex, Promise) {
           // stats
           stats_games_completed: 45,
           stats_total_players: 118,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -44,6 +45,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 13,
           stats_total_players: 45,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -61,6 +63,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 22,
           stats_total_players: 45,
+          stats_player_count: 9,
           phone_number: 5033136362
         },
         {
@@ -76,8 +79,9 @@ exports.seed = function(knex, Promise) {
           info_restrooms: "None",
           info_water: "None",
           info_lights: "Yes",
-          stats_games_completed:88,
+          stats_games_completed: 88,
           stats_total_players: 29,
+          stats_player_count: 9,
           phone_number: 5033136362
         },
         {
@@ -95,6 +99,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 29,
           stats_total_players: 119,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -112,6 +117,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 3,
           stats_total_players: 83,
+          stats_player_count: 7,
           phone_number: 5033136362
         },
         {
@@ -129,6 +135,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 83,
           stats_total_players: 288,
+          stats_player_count: 5,
           //twilio
           phone_number: 5033136362
         },
@@ -147,6 +154,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 21,
           stats_total_players: 24,
+          stats_player_count: 12,
           phone_number: 5033136362
         },
         {
@@ -164,6 +172,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 41,
           stats_total_players: 119,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -181,6 +190,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 11,
           stats_total_players: 64,
+          stats_player_count: 2,
           phone_number: 5033136362
         },
         {
@@ -198,6 +208,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 92,
           stats_total_players: 30,
+          stats_player_count: 13,
           phone_number: 5033136362
         },
         {
@@ -215,6 +226,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 20,
           stats_total_players: 97,
+          stats_player_count: 1,
           phone_number: 5033136362
         },
         {
@@ -232,6 +244,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 64,
           stats_total_players: 211,
+          stats_player_count: 15,
           phone_number: 5033136362
         },
         {
@@ -249,6 +262,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 42,
           stats_total_players: 109,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -266,6 +280,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 72,
           stats_total_players: 252,
+          stats_player_count: 3,
           phone_number: 5033136362
         },
         {
@@ -283,6 +298,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 22,
           stats_total_players: 31,
+          stats_player_count: 11,
           phone_number: 5033136362
         },
         {
@@ -300,6 +316,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 29,
           stats_total_players: 125,
+          stats_player_count: 1,
           phone_number: 5033136362
         },
         {
@@ -317,6 +334,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 52,
           stats_total_players: 221,
+          stats_player_count: 1,
           phone_number: 5033136362
         },
         {
@@ -334,6 +352,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 21,
           stats_total_players: 69,
+          stats_player_count: 4,
           phone_number: 5033136362
         },
         {
@@ -351,6 +370,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 33,
           stats_total_players: 17,
+          stats_player_count: 3,
           phone_number: 5033136362
         },
         {
@@ -368,6 +388,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 42,
           stats_total_players: 93,
+          stats_player_count: 1,
           phone_number: 5033136362
         },
         {
@@ -385,6 +406,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 10,
           stats_total_players: 51,
+          stats_player_count: 7,
           phone_number: 5033136362
         },
         {
@@ -402,6 +424,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "None",
           stats_games_completed: 28,
           stats_total_players: 46,
+          stats_player_count: 19,
           phone_number: 5033136362
         },
         {
@@ -419,6 +442,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 18,
           stats_total_players: 41,
+          stats_player_count: 15,
           phone_number: 5033136362
         },
         {
@@ -436,6 +460,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 32,
           stats_total_players: 80,
+          stats_player_count: 0,
           phone_number: 5033136362
         },
         {
@@ -453,6 +478,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 46,
           stats_total_players: 140,
+          stats_player_count: 10,
           phone_number: 5033136362
         },
         {
@@ -470,6 +496,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 67,
           stats_total_players: 111,
+          stats_player_count: 13,
           phone_number: 5033136362
         },
         {
@@ -487,6 +514,7 @@ exports.seed = function(knex, Promise) {
           info_lights: "Yes",
           stats_games_completed: 30,
           stats_total_players: 51,
+          stats_player_count: 11,
           phone_number: 5033136362
         }
       ]);
