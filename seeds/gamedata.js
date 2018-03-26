@@ -104,8 +104,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 506,
-          location: "Sayian Field",
-          city: "Ft. Collins",
+          location: "Vageta Field",
+          city: "Ft. Lupton",
           day: "Wednesday",
           time: "Day",
           level: "Competitive",
@@ -213,8 +213,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 623,
-          location: "Aroura Sports Park",
-          city: "Aroura",
+          location: "Aurora Sports Park",
+          city: "Aurora",
           day: "Friday",
           time: "Day",
           level: "Open",
