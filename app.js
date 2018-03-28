@@ -8,6 +8,8 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+// twilio ? goes here ?
+
 
 // this displays both tables
 app.get("/", (request, response) => {
